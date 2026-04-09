@@ -1,0 +1,21 @@
+# Video/Audio output files
+*.mp4
+*.mp3
+*.wav
+*.webm
+audio/
+footage/
+output/
+scripts/
+templates/
+
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db

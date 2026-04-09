@@ -1,0 +1,134 @@
+================================================================================
+                    YOUTUBE CHANNEL BRANDING GUIDE
+                    Owner: Muhammad Saboor
+                    Created: March 31, 2026
+================================================================================
+
+
+================================================================================
+1. CHANNEL NAME OPTIONS
+================================================================================
+
+  1. Veil of Wonders
+  2. The Hidden Thread
+  3. Eclipsed Facts
+  4. Midnight Curious
+  5. Beyond the Veil
+
+Recommended pick: "Veil of Wonders" -- evocative, easy to spell, works well
+as a brand across thumbnails, merchandise, and social handles.
+
+
+================================================================================
+2. CHANNEL DESCRIPTION (YouTube Studio - About Section)
+================================================================================
+
+Copy and paste the block below directly into YouTube Studio:
+
+---
+
+Welcome to Veil of Wonders -- where the unknown becomes unforgettable.
+
+We explore the world's greatest mysteries, unsolved cases, lost civilizations,
+strange science, and mind-bending discoveries that most people have never
+heard of. Every video is a deep dive backed by research, stunning visuals,
+and cinematic storytelling designed to keep you on the edge of your seat.
+
+New videos every week. Subscribe and turn on notifications so you never
+miss an exploration into the extraordinary.
+
+Topics we cover:
+- Unsolved mysteries and cold cases
+- Lost civilizations and ancient history
+- Deep ocean and space discoveries
+- Strange science and unexplained phenomena
+- Conspiracy theories examined with facts
+- Hidden places and forgotten stories
+
+Created by Muhammad Saboor.
+
+---
+
+
+================================================================================
+3. CHANNEL KEYWORDS (YouTube Studio > Settings > Channel > Basic Info)
+================================================================================
+
+mystery, mysteries, unsolved mysteries, unexplained, discovery, documentary,
+facts, strange, creepy, unknown, top 10, deep dive, hidden history,
+lost civilizations, ancient mysteries, cold cases, true crime, space,
+ocean mysteries, conspiracy theories, science, educational, dark history,
+mysterious places, forgotten stories, mind blowing facts, explained
+
+
+================================================================================
+4. DEFAULT VIDEO TAGS (Apply to Every Upload)
+================================================================================
+
+mystery, mysteries, unsolved, unexplained, documentary, discovery,
+facts you didnt know, top 10, deep dive, hidden history, strange but true,
+lost civilizations, ancient history, cold cases, dark history,
+mysterious places, mind blowing, educational, Veil of Wonders,
+Muhammad Saboor
+
+
+================================================================================
+5. SOCIAL MEDIA BIO
+================================================================================
+
+Uncovering the world's strangest mysteries, lost history, and mind-bending
+discoveries. New deep dives weekly.
+
+
+================================================================================
+6. UPLOAD SCHEDULE RECOMMENDATION
+================================================================================
+
+Phase 1 (Months 1-3): 1 video per week (Saturday, 5:00 PM EST)
+  - Focus on building a library of 12+ high-quality videos.
+  - Consistency matters more than frequency at this stage.
+
+Phase 2 (Months 4-8): 2 videos per week (Wednesday + Saturday, 5:00 PM EST)
+  - Algorithm rewards higher frequency once quality is proven.
+  - Use Wednesday for shorter format (8-12 min), Saturday for long form (15-25 min).
+
+Phase 3 (Month 9+): 2-3 videos per week
+  - Add a Shorts upload on Monday to capture mobile traffic.
+  - Repurpose long-form highlights into Shorts.
+
+Best posting times for mystery/discovery niche:
+  - Saturday 5:00 PM EST (peak leisure browsing)
+  - Wednesday 2:00 PM EST (midweek engagement spike)
+  - Sunday 11:00 AM EST (weekend catch-up viewing)
+
+
+================================================================================
+7. BRANDING COLORS
+================================================================================
+
+Primary Palette:
+  Deep Midnight Blue   #0B0F2E   (backgrounds, overlays)
+  Royal Gold           #C9A84C   (titles, accents, highlights)
+  Pure White           #FFFFFF   (body text, contrast elements)
+
+Secondary Palette:
+  Muted Silver         #8A8D9B   (subtitles, secondary text)
+  Blood Crimson        #8B1A1A   (alert accents, mystery emphasis)
+  Charcoal             #1C1C1E   (alternate dark background)
+
+Usage Guide:
+  - Thumbnails: Deep Midnight Blue background, Royal Gold title text,
+    White subtitle text. Use Blood Crimson sparingly for emphasis.
+  - Channel Banner: Gradient from Deep Midnight Blue to Charcoal,
+    channel name in Royal Gold, tagline in Pure White.
+  - Video Intros/Outros: Midnight Blue base with Gold animated accents.
+  - Lower Thirds: Charcoal bar with White text and Gold accent line.
+
+Font Recommendations:
+  - Titles/Thumbnails: Bebas Neue or Oswald (bold, condensed, cinematic)
+  - Body/Descriptions: Inter or Roboto (clean, readable)
+
+
+================================================================================
+                         END OF BRANDING GUIDE
+================================================================================
