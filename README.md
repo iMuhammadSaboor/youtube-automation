@@ -1,22 +1,33 @@
 # AI-Powered YouTube Video Production Pipeline
 
-Fully automated end-to-end video production system that generates complete YouTube videos from a single topic input.
+![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-API-412991?logo=openai)
+![Status](https://img.shields.io/badge/Status-Working-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
+> **One command = one complete YouTube video.** Fully automated pipeline from topic to upload-ready video with AI narration, stock footage, thumbnails, and SEO metadata.
+
+---
 
 ## What It Does
 
 ```
-Input:  "7 Impossible Ancient Discoveries"
-Output: Complete video + thumbnail + metadata (ready to upload)
+Input:   python video_pipeline.py --topic "7 Impossible Ancient Discoveries"
+Output:  Complete video (MP4) + thumbnail (PNG) + metadata (TXT)
+         Ready to upload to YouTube
 ```
 
-## Pipeline Stages
+### Pipeline Stages
 
-1. **Script Generation** — OpenAI API generates structured narration scripts with scene breakdowns
-2. **Footage Sourcing** — Pexels API finds HD stock footage with quality scoring and retry logic
-3. **Voiceover Synthesis** — Edge TTS generates narration with dramatic pauses and scene-type pacing
-4. **Video Assembly** — MoviePy composites footage with Ken Burns zoom/pan effects, crossfade transitions, letterbox bars, and animated title cards
-5. **Thumbnail Generation** — Pillow creates thumbnails with RGBA compositing, gradient overlays, glow effects, and niche-specific colour schemes
-6. **SEO Metadata** — Auto-generates titles, descriptions, tags, and hashtags optimised per niche
+```
+Topic Input
+  --> Script Generation (OpenAI API)
+  --> Stock Footage Sourcing (Pexels API, quality scoring)
+  --> AI Voiceover (Edge TTS, dramatic pacing)
+  --> Video Assembly (MoviePy, Ken Burns effects, transitions)
+  --> Thumbnail Generation (Pillow, RGBA compositing, glow effects)
+  --> SEO Metadata (title, description, tags, hashtags)
+```
 
 ## Supported Niches
 
@@ -29,34 +40,29 @@ Output: Complete video + thumbnail + metadata (ready to upload)
 
 ## Tech Stack
 
-- **Python** — Core language
-- **OpenAI API** — Script generation
-- **Pexels API** — Stock footage sourcing
-- **Edge TTS** — Text-to-speech voiceover
-- **MoviePy v2** — Video editing and compositing
-- **Pillow** — Thumbnail and image generation
+| Tool | Purpose |
+|------|---------|
+| Python | Core pipeline |
+| OpenAI API | Script generation |
+| Pexels API | HD stock footage with quality scoring |
+| Edge TTS | AI voiceover with dramatic pacing |
+| MoviePy v2 | Video compositing, Ken Burns, crossfades |
+| Pillow | Thumbnail with gradients and glow effects |
 
-## Usage
-
-```bash
-pip install -r requirements.txt
-python video_pipeline.py --topic "7 Impossible Ancient Discoveries"
-```
-
-### CLI Options
+## CLI Options
 
 | Flag | Description |
 |------|-------------|
 | `--topic` | Video topic (required) |
 | `--voice` | TTS voice selection |
-| `--fast` | Use ultrafast encoding preset |
+| `--fast` | Ultrafast encoding preset |
 | `--skip-video` | Generate script/audio only |
 | `--skip-footage` | Skip footage download |
 
 ## Architecture
 
 ```
-video_pipeline.py          # CLI entry point
+video_pipeline.py          # CLI entry point - runs all stages
 src/
 ├── script_generator.py    # OpenAI script generation + niche detection
 ├── footage_downloader.py  # Pexels API with quality scoring + retry
@@ -66,6 +72,22 @@ src/
 └── metadata.py            # SEO metadata generation
 ```
 
+## Quick Start
+
+```bash
+pip install -r requirements.txt
+python video_pipeline.py --topic "7 Impossible Ancient Discoveries"
+```
+
+## Key Design Decisions
+
+- **Modular pipeline** - each stage has defined inputs/outputs, can run independently
+- **Quality scoring** - footage is ranked by resolution, relevance, and duration before selection
+- **Retry logic** - API failures don't crash the pipeline, they retry with fallbacks
+- **Niche-aware** - colour schemes, pacing, and metadata adapt to content type
+
 ## Author
 
 **Muhammad Saboor** — Melbourne, VIC
+Final-year Bachelor of Data Science, Victoria University
+[GitHub](https://github.com/iMuhammadSaboor) | bmuhammadsaboor@gmail.com
